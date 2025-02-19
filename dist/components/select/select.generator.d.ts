@@ -1,0 +1,9 @@
+/// <reference types="react" />
+import { PiSelectProps } from './select';
+/**
+ *
+ * @param props as  PiSelectProps
+ * @returns Template based on Library
+ * if no library passed default HTML is returned
+ */
+export declare function generateSelectTemplate({ libraryType, ...props }: PiSelectProps): JSX.Element;
