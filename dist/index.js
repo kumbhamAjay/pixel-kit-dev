@@ -7343,7 +7343,7 @@ function generateChartTemplate(_ref) {
     options: barOptions,
     series: barSeries,
     type: "bar",
-    height: 350
+    height: '100%'
   });
 }
 
@@ -7447,4 +7447,5 @@ exports.PiToggle = PiToggle;
 exports.PiTooltip = PiTooltip;
 exports.PiTypography = PiTypography$1;
 exports.PiUploader = PiUploader;
+exports.PiChart=PiChart
 //# sourceMappingURL=index.js.map

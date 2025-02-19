@@ -9667,7 +9667,7 @@ function generateChartTemplate({
     options: barOptions,
     series: barSeries,
     type: "bar",
-    height: 350
+    height: '100%'
   });
 }
 
