@@ -154,5 +154,5 @@ export function generateChartTemplate({ categories = [], series = [], text = "De
         },
     };
 
-    return <ReactApexChart options={barOptions} series={barSeries} type="bar" height={350} />;
+    return <ReactApexChart options={barOptions} series={barSeries} type="bar" height='100%' />;
 }
