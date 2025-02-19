@@ -100,7 +100,7 @@ export function generateChartTemplate({ categories = [], series = [], text = "De
 
     const barOptions: ApexOptions = {
         chart: {
-            height: '100%',
+            height:350,
             type: "bar",
         },
         plotOptions: {
@@ -154,5 +154,5 @@ export function generateChartTemplate({ categories = [], series = [], text = "De
         },
     };
 
-    return <ReactApexChart options={barOptions} series={barSeries} type="bar" height='100%' />;
+    return <ReactApexChart options={barOptions} series={barSeries} type="bar" />;
 }

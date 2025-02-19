@@ -9599,7 +9599,7 @@ function generateChartTemplate({
   }];
   const barOptions = {
     chart: {
-      height: '100%',
+      height: 350,
       type: "bar"
     },
     plotOptions: {
@@ -9666,8 +9666,7 @@ function generateChartTemplate({
   return React.createElement(ReactApexChart, {
     options: barOptions,
     series: barSeries,
-    type: "bar",
-    height: '100%'
+    type: "bar"
   });
 }
 

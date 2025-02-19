@@ -7271,7 +7271,7 @@ function generateChartTemplate(_ref) {
   }];
   var barOptions = {
     chart: {
-      height: '100%',
+      height: 350,
       type: "bar"
     },
     plotOptions: {
@@ -7342,8 +7342,7 @@ function generateChartTemplate(_ref) {
   return React__default.createElement(ReactApexChart, {
     options: barOptions,
     series: barSeries,
-    type: "bar",
-    height: '100%'
+    type: "bar"
   });
 }
 

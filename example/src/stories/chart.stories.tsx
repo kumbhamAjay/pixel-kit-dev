@@ -21,7 +21,11 @@ export default {
     categories:{
         description:'titles of Each bar',
         control:{type:'array'}
-    }
+    },
+    // height:{
+    //   description:"height of container",
+    //   // control:{type:"input"}
+    // }
   
   },
 } as ComponentMeta<typeof PiChart>;
@@ -34,6 +38,7 @@ export const Default = Template.bind({});
 Default.args = {
   text:'Bar Graph',
   series:[6.4,3.3,7.7,5.8,6.6],
-  categories:["jan","feb","Mar","Apr","May"]
+  categories:["jan","feb","Mar","Apr","May"],
+  // height:"100%"
   
 };

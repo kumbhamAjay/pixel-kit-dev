@@ -4,6 +4,7 @@ export declare class PiChartProps extends BaseProps {
     text?: string;
     series?: Number[];
     categories?: string[];
+    height?: number | string;
 }
 /**
  *

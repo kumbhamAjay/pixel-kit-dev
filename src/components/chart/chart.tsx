@@ -7,6 +7,7 @@ export class PiChartProps extends BaseProps {
   text?: string
   series?:Number[]
   categories?: string[];
+  // height?:number|string
 //   name: string = 'radioField'
 //   helpText?: string
 //   isDisabled?: boolean
