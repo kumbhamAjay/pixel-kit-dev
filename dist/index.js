@@ -7271,7 +7271,7 @@ function generateChartTemplate(_ref) {
   }];
   var barOptions = {
     chart: {
-      height: 350,
+      height: '100%',
       type: "bar"
     },
     plotOptions: {
@@ -7447,5 +7447,4 @@ exports.PiToggle = PiToggle;
 exports.PiTooltip = PiTooltip;
 exports.PiTypography = PiTypography$1;
 exports.PiUploader = PiUploader;
-exports.PiChart=PiChart
 //# sourceMappingURL=index.js.map

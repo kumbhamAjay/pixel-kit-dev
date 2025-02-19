@@ -100,7 +100,7 @@ export function generateChartTemplate({ categories = [], series = [], text = "De
 
     const barOptions: ApexOptions = {
         chart: {
-            height: 350,
+            height: '100%',
             type: "bar",
         },
         plotOptions: {

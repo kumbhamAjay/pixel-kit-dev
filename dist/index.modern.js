@@ -9599,7 +9599,7 @@ function generateChartTemplate({
   }];
   const barOptions = {
     chart: {
-      height: 350,
+      height: '100%',
       type: "bar"
     },
     plotOptions: {
